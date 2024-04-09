@@ -1,5 +1,5 @@
 # SubRoster
-![SubRoster Logo](logo.png)
+![SubRoster Logo](https://raw.githubusercontent.com/Adrian-atsign-VU/SubRoster/main/icon.png)
 
 SubRoster is a simple web extension that allows you to curate your favorite subreddits without the need for social media platforms. It provides an easy way to access your favorite content from Reddit without the distractions.
 
