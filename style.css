@@ -1,0 +1,131 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+}
+
+.subreddit-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.subreddit-item:hover {
+    transform: translateY(-1px);
+}
+
+.subreddit-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.subreddit-item a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.subreddit-item a:hover {
+    color: #FF5700;
+}
+
+.subreddit-item img,
+.subreddit-item a {
+    transition: all 0.2s ease;
+}
+
+.subreddit-item img:hover,
+.subreddit-item a:hover {
+    transform: scale(1.01);
+}
+#subRoster-main-page{
+    max-width: 70px;
+    display: block; margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+#subRoster-main-page:hover{
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+}
+#HowTo a{text-decoration: none; color: #FF5700;}
+#HowTo{transition: all 0.2s ease;text-align: center;}
+#HowTo a:hover{
+    color: #aa4c1c;
+}
+
+ul li{padding-bottom: 8px; font-weight: bold; font-size: 16px; margin-top: 50px; margin-bottom: 5px;transition: all 0.2s ease; list-style: none;}
+ul img{transition: all 0.2s ease;max-width: 600px;}
+ul img:hover{scale: 1.01;}
+
+h4{
+    color: #333333;
+}
+#tut{
+    width: 80%; /* Set the width of the div */
+    margin: 0 auto; /* Center the div horizontally */
+    text-align: center; /* Center the text inside the div */
+}
+main p.download a {
+    margin: -0.2em;
+    border-color: #333;
+    font-size: 1.5rem;
+}
+
+a.button {
+    position: relative;
+    display: block;
+    padding: 1em 2em 1em 2em;
+    border: 0.2em solid #f9f9f9;
+    border-radius: 0.5em;
+    background-color: #9c3d3d;
+    background: linear-gradient(135deg, #FF5700 0%, #d45211 100%);
+    color: #f9f9f9;
+    font: bold 1.1rem / 1.4em 'Work Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.2s border-color;
+    text-decoration: none;
+}
+a.button::selection
+{
+	background-color: #f9f9f9;
+	color: #FF5700;
+}
+
+a.button:hover,
+a.button:focus
+{
+	border-color: #f9f9f9;
+	transition: none;
+}
+
+a.button:active
+{
+	background: #f9f9f9;
+	color: #FF5700;
+}
+
+a.button:active::before
+{
+	background-color: #FF5700;
+}
+
+.TerryADavis{
+    padding: 2px;
+    background: linear-gradient(135deg, #FF5700 0%, #d45211 100%);
+    color: #f9f9f9;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.2s border-color;
+    text-decoration: none;
+    font-weight: bold;
+}
